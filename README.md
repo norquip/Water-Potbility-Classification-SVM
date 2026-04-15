@@ -31,12 +31,16 @@ The dataset contains 3,276 samples with 9 key features, including:
 🔗 Source: https://www.kaggle.com/datasets/adityakadiwal/water-potability
 
 ## Project Structure
-
 a) Exploratory Data Analysis and Visualization  
+
 b) Data preprocessing (outliers + missing values, normalization)  
-c) Model training and evaluation  
+
+c) Model training and evaluation 
+
 d) Insights
+
 e) Results
+
 
 ###  a) Exploratory Data Analysis (EDA)  and Visualization
 
@@ -83,11 +87,8 @@ Observations:
 ###  e) Results
 
 - Random Forest outperformed SVM for water potability prediction.
-
-- SVM with a **linear kernel** was ineffective, failing to identify true positives, indicating that the data is not linearly separable.
-
-- SVM with an **RBF kernel** captured non-linear decision boundaries. However, it performed well in predicting non-potable water but struggled to detect potable samples (recall = 0.33).
-
+- SVM with a linear kernel was ineffective, failing to identify true positives, indicating that the data is not linearly separable.
+- SVM with an RBF kernel captured non-linear decision boundaries. However, it performed well in predicting non-potable water but struggled to detect potable samples (recall = 0.33).
 - By optimizing for F1-score, the Random Forest model improved recall from **0.33 (SVM)** to **0.46**, demonstrating better detection of potable water samples.
 
 
