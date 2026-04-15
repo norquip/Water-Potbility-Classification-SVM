@@ -39,16 +39,16 @@ The dataset contains 3,276 samples with 9 key features, including:
 
 ### Exploratory Data Analysis (EDA)  and Visualization
 
-1.  Class distribution analysis and general statistical information.
-2.  Univariate  and Bivariate analysis.
-3.  Understanding missing Values.
-4.  Outliers
+* Class distribution analysis and general statistical information.
+* Univariate  and Bivariate analysis.
+* Understanding missing Values.
+* Outliers
 
 Observations: 
-- ** moderate class imbalance** (with 61% non-potable samples).
-- ** moderate positive skewness in feature Solids** (skewness ≈ 0.63), indicating a longer right tail and the presence of higher-value observations.
+- **moderate class imbalance** (with 61% non-potable samples).
+- **moderate positive skewness in feature Solids** (skewness ≈ 0.63), indicating a longer right tail and the presence of higher-value observations.
 - The remaining features have negligible skewness.
-- ** class overlap** in all variables.
+- **class overlap** in all variables.
 - **missing values** (~44%) in multiple features.  
 - **outliers (~11%)** using statistical analysis. 
 
