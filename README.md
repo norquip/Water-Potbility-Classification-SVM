@@ -27,17 +27,18 @@ The dataset contains 3,276 samples with 9 key features, including:
 - Organic Carbon  
 - Trihalomethanes  
 - Turbidity  
+
 🔗 Source: https://www.kaggle.com/datasets/adityakadiwal/water-potability
 
 ## Project Structure
 
-- Exploratory Data Analysis and Visualization  
-- Data preprocessing (outliers + missing values, normalization)  
-- Model training and evaluation  
-- Insights
-- Results
+a) Exploratory Data Analysis and Visualization  
+b) Data preprocessing (outliers + missing values, normalization)  
+c) Model training and evaluation  
+d) Insights
+e) Results
 
-### Exploratory Data Analysis (EDA)  and Visualization
+###  a) Exploratory Data Analysis (EDA)  and Visualization
 
 * Class distribution analysis and general statistical information.
 * Univariate  and Bivariate analysis.
@@ -45,22 +46,22 @@ The dataset contains 3,276 samples with 9 key features, including:
 * Outliers
 
 Observations: 
-- **moderate class imbalance** (with 61% non-potable samples).
-- **moderate positive skewness in feature Solids** (skewness ≈ 0.63), indicating a longer right tail and the presence of higher-value observations.
+- moderate class imbalance (with 61% non-potable samples).
+- moderate positive skewness in feature Solids (skewness ≈ 0.63), indicating a longer right tail and the presence of higher-value observations.
 - The remaining features have negligible skewness.
-- **class overlap** in all variables.
-- **missing values** (~44%) in multiple features.  
-- **outliers (~11%)** using statistical analysis. 
+- class overlap in all variables.
+- missing values (~44%) in multiple features.  
+- outliers (~11%) using statistical analysis. 
 
  
 
-### Preprocessing: 
+###  b) Preprocessing: 
    * Interquartile Range (IQR) capping to handle extreme values.
    * Feature/Target separation and Train-Test splitting.
    * RobustScaler normalization to mitigate outlier influence for distance-based models.
    * K-Nearest Neighbors (KNN) Imputation to handle missing data.
 
- ### Model training and evaluation  
+ ### c) Model training and evaluation  
    * Support Vector Machine (SVM): Comparative analysis between Linear and Radial Basis Function (RBF) kernels.
    * Random Forest: Implemented as a non-parametric baseline (scaling-independent).
    * Comparing the metrics for the SVM models and the Random Forest model. 
@@ -74,18 +75,12 @@ Observations:
 - Feature scaling was applied to improve SVM performance
 - Hyperparameter Tuning: Visualization of Accuracy vs. C-values and Score vs. Gamma plots for RBF optimization. 
  
-
-
-
-##  Key Insight:
+###  d) Insights
 * The dataset shows significant overlap between classes and  moderated imbalance; these two facts  make classification challenging.
 * Missing data and outliers have a substantial impact on model performance
 * Tree-based models handle raw data more robustly compared with the SVM model. 
 
-
-
-
-## Results
+###  e) Results
 
 - Random Forest outperformed SVM for water potability prediction.
 
@@ -104,8 +99,6 @@ Observations:
 
 
 ## Skills:
-
-
 Data preprocessing, EDA, classification modeling, SVM (linear & RBF), Random Forest, model evaluation (F1-score, recall), feature scaling, and missing data imputation.
 
 
