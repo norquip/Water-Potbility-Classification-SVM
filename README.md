@@ -104,6 +104,6 @@ Data preprocessing, EDA, classification modeling, SVM (linear & RBF), Random For
 
 
 🔗  View  Full Analysis:  
-
+https://github.com/norquip/Water-Potability-Classification/blob/main/notebooks/Water-Potability-SVM-RF.ipynb
 ---
  
