@@ -105,7 +105,7 @@ Observations:
 
 
 ## Skills:
-Data preprocessing, EDA, classification modeling, SVM (linear & RBF), Random Forest, model evaluation (F1-score, recall), feature scaling, and missing data imputation.
+Data preprocessing, EDA, classification modeling, SVM (linear & RBF), Random Forest, model evaluation (F1-score, recall), hyperparameter tuning, feature scaling, and missing data imputation.
 
 
 🔗  View  Full Analysis:  
