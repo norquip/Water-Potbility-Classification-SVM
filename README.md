@@ -9,6 +9,7 @@ To identify patterns in water quality data and develop classification models tha
 ```
 ├── notebooks/
 │   └── Water-Potability.ipynb    <-- Full EDA, preprocessing, and modeling
+├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
