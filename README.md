@@ -97,6 +97,15 @@ Observations:
 - SVM with an RBF kernel captured non-linear decision boundaries. However, it performed well in predicting non-potable water but struggled to detect potable samples (recall = 0.33).
 - By optimizing for F1-score, the Random Forest model improved recall from **0.33 (SVM)** to **0.46**, demonstrating better detection of potable water samples.
 
+## Conclusions 
+* Two models were considered in this project for the classification of water potability. Supported Vector Machine (SVM) and Random Forest.
+
+* Compared to the SVM with RBF kernel, the Random Forest model performed better in water potability prediction. By optimizing the model using the F1-score, both recall and F1-score improved relative to the SVM model.
+
+* If the goal is to detect unsafe water, Random Forest performs well, achieving a recall of 0.80 for non-potable water.
+
+* However, performance on potable water remains limited (recall = 0.46), highlighting the difficulty of identifying safe water. The dataset exhibits two characteristics that make classification particularly challenging: it is both class-imbalanced and class-overlapped. When these two characteristics coexist, standard models are highly prone to producing biased decision boundaries, which significantly reduces Recall and F1 in the minority class.
+
 
 ## Tools
 - Python  
